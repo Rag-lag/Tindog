@@ -1,7 +1,4 @@
 /* title section */
-body{
-  /* overflow-x: scroll; */
-}
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 3.5rem;
@@ -23,25 +20,19 @@ h1 {
 
 .container-fluid {
   padding: 3% 15%;
-/*   padding-bottom: 60px; */
-/*   height:  675px; */
-  overflow: scroll;
+  padding-bottom: 0px;
+  /* height: 700px; */
 }
-/* .iphone-img{
+.iphone-img{
   padding-left: 50px;
-} */
+}
 .iphone-mockup {
-  margin-left: 50px;
-  margin-top: 30px;
-  width: 50%;
-  transform:  rotate(25deg);
+  transform: scale(0.8,0.8) rotate(25deg);
 }
 #title {
   background-color: #ff4c68;
-  width: 100%;
-  overflow:auto:
-  height: 42.1875rem;
-
+  /* height: 675px; */
+  overflow-x: scroll;
 }
 .navbar-brand {
   margin-left: 15px;
