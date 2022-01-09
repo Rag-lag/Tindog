@@ -7,11 +7,6 @@ h1 {
   padding-top: 60px;
   font-weight: 900;
 }
-body{
-  margin: 0;
-  width: 100%;
-  overflow-x: hidden;
-}
 
 .features-heading {
   font-size: 1.5rem;
@@ -41,7 +36,9 @@ body{
 #title {
   background-color: #ff4c68;
   height: 700px;
+  overflow-x: hidden;
 }
+
 #title::-webkit-scrollbar {
   display: none;
 }
@@ -87,7 +84,6 @@ body{
   z-index: 1;
   top: 600px;
   padding: 7% 15%;
-
 }
 
 .fas {
@@ -106,12 +102,10 @@ body{
 
 /* testimonial */
 #testimonials {
-
   width: 100%;
   color: #fff;
   text-align: center;
   background-color: #ef8172;
-
 }
 
 .carousel-item {
@@ -129,16 +123,13 @@ h2 {
   font-weight: 900;
   font-size: 3rem;
   line-height: 1.5;
-
 }
 
 #press {
-
   width: 100%;
   text-align: center;
   background-color: #ef8172;
   padding-bottom: 3%;
-
 }
 
 .press-logo {
@@ -146,43 +137,42 @@ h2 {
   margin: 20px 20px 50px;
 }
 
-
 /* Pricing */
-#pricing{
+#pricing {
   background-color: #fff;
   width: 100%;
   padding: 7% 15%;
-
 }
-.pricing-row{
+
+.pricing-row {
   padding-top: 4%;
 }
-.pricing-contianer{
+
+.pricing-contianer {
   text-align: center;
 }
-.price-col{
+
+.price-col {
   margin: 3% 0;
 }
-.pricecard:hover > .pricecard-head{
+
+.pricecard:hover>.pricecard-head {
   background-color: #ff4c68;
   color: #fff;
 }
 
-.dog-breed{
+.dog-breed {
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
 }
+
 /* .card{
   padding: 0 7%;
 } */
-
-.equal-spacing{
+.equal-spacing {
   margin-bottom: 57px;
 }
 
-#cta{
+#cta {}
 
-}
-#footer{
-
-}
+#footer {}
