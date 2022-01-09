@@ -9,7 +9,7 @@ h1 {
 }
 body{
   width: 100%;
-  overflow-x: scroll;
+  overflow-x: hidden;
 }
 
 .features-heading {
