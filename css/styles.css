@@ -7,7 +7,8 @@ h1 {
   padding-top: 60px;
   font-weight: 900;
 }
-.features-heading{
+
+.features-heading {
   font-size: 1.5rem;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
@@ -21,22 +22,25 @@ h1 {
 .container-fluid {
   padding: 3% 15%;
   padding-bottom: 0px;
-  /* height: 700px; */
 }
-.iphone-img{
+
+.iphone-img {
   padding-left: 50px;
 }
+
 .iphone-mockup {
-  transform: scale(0.8,0.8) rotate(25deg);
+  transform: scale(0.8, 0.8) rotate(25deg);
+  position: absolute;
 }
+
 #title {
   background-color: #ff4c68;
-  /* height: 675px; */
-  overflow-x: scroll;
+  height: 700px;
 }
 #title::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
+
 .navbar-brand {
   margin-left: 15px;
   margin-left: 0;
@@ -58,21 +62,27 @@ h1 {
 .dwnld-btn {
   margin: 5% 3% 5% 0;
 }
+
 /* features section */
 .features-container {
+  background: #fff;
+  position: relative;
+  z-index: 1;
   padding-top: 90px;
-  padding-bottom: 170px;
+  padding-bottom: 90px;
 }
 
 .features-para {
   color: #8f8f8f;
-  /* text-align: center; */
-  /* width: 80%; */
-  /* margin-left: 40px; */
 }
 
 #feature {
-  margin-top: 30px;
+  background-color: rgba(255, 255, 255, 1);
+  position: relative;
+  z-index: 1;
+  top: 600px;
+  padding: 7% 15%;
+
 }
 
 .fas {
@@ -84,8 +94,90 @@ h1 {
   color: #ff4c68;
 }
 
-.col-md-4 {
-  padding: 80px 12px 0 12px;
+.fea {
+  padding: 5%;
   text-align: center;
-  /* padding-bottom: 80px; */
+}
+
+/* testimonial */
+#testimonials {
+
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  background-color: #ef8172;
+
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+
+#press {
+
+  width: 100%;
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 3%;
+
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* Pricing */
+#pricing{
+  background-color: #fff;
+  width: 100%;
+  padding: 7% 15%;
+
+}
+.pricing-row{
+  padding-top: 4%;
+}
+.pricing-contianer{
+  text-align: center;
+}
+.price-col{
+  margin: 3% 0;
+}
+.pricecard:hover > .pricecard-head{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.dog-breed{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+/* .card{
+  padding: 0 7%;
+} */
+
+.equal-spacing{
+  margin-bottom: 57px;
+}
+
+#cta{
+
+}
+#footer{
+
 }
