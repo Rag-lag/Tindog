@@ -32,7 +32,7 @@ h1 {
 #title {
   background-color: #ff4c68;
   /* height: 675px; */
-  overflow-x: scroll;
+  overflow-x: hidden;
 }
 .navbar-brand {
   margin-left: 15px;
