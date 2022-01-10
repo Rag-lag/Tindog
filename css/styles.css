@@ -66,29 +66,7 @@ h1 {
   margin: 5% 3% 5% 0;
 }
 
-@media (max-width:1028px) {
-  #title {
-    text-align: center;
-    /* overflow: hidden; */
-  }
-  .container-fluid{
-    text-align: center;
-  }
-  .col-md-6{
-    width: 100%;
-  }
-  .iphone-mockup {
-    padding-right: 50px;
-    position: static;
-    transform: rotate(0);
-  }
-  .price-col{
-    width: 100%;
-  }
-  .fea{
-    width: 100%;
-  }
-}
+
 
 /* features section */
 .features-container {
@@ -238,4 +216,28 @@ h2 {
 }
 .contact-logo:hover{
   color: #ff4c66;
+}
+
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+    /* overflow: hidden; */
+  }
+  .container-fluid{
+    text-align: center;
+  }
+  .col-md-6{
+    width: 100%;
+  }
+  .iphone-mockup {
+    padding-right: 50px;
+    position: static;
+    transform: rotate(0);
+  }
+  .price-col{
+    width: 100%;
+  }
+  .fea{
+    width: 100%;
+  }
 }
