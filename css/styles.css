@@ -20,7 +20,7 @@ h1 {
 }
 
 .container-fluid {
-  margin:0 auto;
+  margin: 0 auto;
   padding: 3% 15%;
   padding-bottom: 150px;
   width: 100%;
@@ -66,12 +66,9 @@ h1 {
   margin: 5% 3% 5% 0;
 }
 
-
-
 /* features section */
 .features-container {
   background: #fff;
-  /* position: relative; */
   padding-top: 90px;
   padding-bottom: 90px;
 }
@@ -175,46 +172,50 @@ h2 {
   font-weight: 900;
 }
 
-/* .card{
-  padding: 0 7%;
-} */
 .equal-spacing {
   margin-bottom: 57px;
 }
+
 /* call-to-action */
 #cta {
   background-color: #ff4c66;
   text-align: center;
   padding: 70px 0;
 }
-.cta-btn{
+
+.cta-btn {
   margin-right: 2%;
 }
-.call-to-action{
-    margin: 0 auto;
-    padding-bottom: 40px;
-    color: #fff;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    font-size: 2.5rem;
-    width: 50%;
-    line-height: 2;
+
+.call-to-action {
+  margin: 0 auto;
+  padding-bottom: 40px;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  width: 70%;
+  line-height: 2;
 }
+
 /* footer */
 #footer {
   padding: 70px 0;
   background-color: #fff;
   text-align: center;
 }
-.logos{
+
+.logos {
   text-align: center;
   padding-bottom: 20px;
 }
-.contact-logo{
+
+.contact-logo {
   color: #000;
   margin-left: 20px;
 }
-.contact-logo:hover{
+
+.contact-logo:hover {
   color: #ff4c66;
 }
 
@@ -223,21 +224,26 @@ h2 {
     text-align: center;
     /* overflow: hidden; */
   }
-  .container-fluid{
+
+  .container-fluid {
     text-align: center;
   }
-  .col-md-6{
+
+  .col-md-6 {
     width: 100%;
   }
+
   .iphone-mockup {
     padding-right: 50px;
     position: static;
     transform: rotate(0);
   }
-  .price-col{
+
+  .price-col {
     width: 100%;
   }
-  .fea{
+
+  .fea {
     width: 100%;
   }
 }
