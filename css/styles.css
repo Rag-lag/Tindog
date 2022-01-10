@@ -20,12 +20,11 @@ h1 {
 }
 
 .container-fluid {
+  margin:0 auto;
   padding: 3% 15%;
-  padding-bottom: 0px;
+  padding-bottom: 150px;
   width: 100%;
 }
-
-
 
 .iphone-img {
   padding-left: 50px;
@@ -36,10 +35,9 @@ h1 {
   position: absolute;
 }
 
-
 #title {
   background-color: #ff4c68;
-  height: 45rem;
+  /* height: 45rem; */
 }
 
 #title::-webkit-scrollbar {
@@ -66,6 +64,24 @@ h1 {
 
 .dwnld-btn {
   margin: 5% 3% 5% 0;
+}
+
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+    /* overflow: hidden; */
+  }
+  .container-fluid{
+    text-align: center;
+  }
+  .col-md-6{
+    width: 100%;
+  }
+  .iphone-mockup {
+    padding-right: 50px;
+    position: static;
+    transform: rotate(0);
+  }
 }
 
 /* features section */
