@@ -15,7 +15,7 @@ h1 {
   font-weight: 900;
 }
 
-.fab {
+.dwnld-logo {
   padding-right: 6px;
 }
 
@@ -108,13 +108,13 @@ h1 {
   padding: 7% 15%;
 }
 
-.fas {
+.feature-logo {
   color: #ef8172;
   padding-bottom: 10px;
   background: #fff;
 }
 
-.fas:hover {
+.feature-logo:hover {
   color: #ff4c68;
   background: #fff;
 }
@@ -197,7 +197,39 @@ h2 {
 .equal-spacing {
   margin-bottom: 57px;
 }
-
-#cta {}
-
-#footer {}
+/* call-to-action */
+#cta {
+  background-color: #ff4c66;
+  text-align: center;
+  padding: 70px 0;
+}
+.cta-btn{
+  margin-right: 2%;
+}
+.call-to-action{
+    margin: 0 auto;
+    padding-bottom: 40px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 2.5rem;
+    width: 50%;
+    line-height: 2;
+}
+/* footer */
+#footer {
+  padding: 70px 0;
+  background-color: #fff;
+  text-align: center;
+}
+.logos{
+  text-align: center;
+  padding-bottom: 20px;
+}
+.contact-logo{
+  color: #000;
+  margin-left: 20px;
+}
+.contact-logo:hover{
+  color: #ff4c66;
+}
